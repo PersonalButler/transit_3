@@ -1,0 +1,167 @@
+img.Background{
+position:absolute;
+}
+
+
+img.OneWayAdult{
+position:absolute;
+height:190px;
+	width:190px;
+}
+
+
+img.QRCode {
+	
+	position:absolute;
+	margin-top:12px;
+	margin-left:244px;
+	height:195px;
+	width:171px;
+
+}
+
+img.Zone {
+	
+	position:relative;
+	margin-top:38px;
+	margin-left:334px;
+	height:91px;
+	width:76px;
+
+}
+
+img.INTERSTATE{
+	position:relative;
+	margin-top:600px;
+	margin-left:150px;
+	height:61px;
+	width:454px;
+
+
+}
+	
+img.BottomMenu{
+	position:absolute;
+	margin-top:680px;
+	marrgin-left:-20px;
+	height:72px;
+	width:450px;
+}
+
+img.QRColor{
+	position:relative;
+	margin-top:178px;
+	margin-left:120px;
+	height:500px;
+	width:500px;
+	
+
+}
+
+p{
+	background-color: #fff;
+	display:inline-flex;
+	justify-content: center;
+	align-items: center;
+	font-size:50px;
+	height:70px;
+	width:200px;
+
+}
+
+@keyframes fade {
+	0% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 0;
+	}
+
+	60% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+div.date{
+	position:relative;
+	margin-top:1047px;
+	margin-left:140px;
+	font-size: 27.5px;
+	font-weight: bold;
+	font-family: "Arial", "sans-serif;";
+
+}
+
+div.days{
+	position:relative;
+	margin-top:700px;
+	/*change margin-left to 70 for Wednesdays, and 100 for any other day*/
+	margin-left:70px;
+	font-size: 27.5px;
+	font-weight: bold;
+	font-family: "Arial", "sans-serif;";
+
+}
+
+
+
+h2{
+  /*this is for expires in*/
+	position: relative;
+	margin-top:64px;
+	margin-left:238px;
+	font-size: 35px;
+	font-family: "Arial", "sans-serif;";
+	font-weight: bold;
+
+
+}
+
+img.Color1{
+	position:relative;
+	margin-top:412px;
+	margin-left:70px;
+	height:22px;
+	width:196px;
+  animation: fade 1.955s infinite ease-in-out;
+	
+}
+img.Color2{
+	position:relative;
+	margin-top:-22px;
+	margin-left:264px;
+	height:22px;
+	width:226px;
+  animation: fade 1.955s infinite ease-in-out;
+
+}
+img.Color3{
+	position:relative;
+	margin-top:-22px;
+	margin-left:486px;
+	height:22px;
+	width:192px;
+  animation: fade 1.955s infinite ease-in-out;
+
+
+}
+
+img.white {
+
+	position:absolute;
+	margin-top:1000px;
+
+}
+
+
+
+	/*<div class= "date"></div>
+	<div id = "days" class = "days"></div> 
+	<br>
+	<div id = "date" class = "date"></div>
+*/
